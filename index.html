@@ -17,27 +17,26 @@
     />
     <meta name="description" content="More Than Just a Software Developer" />
 
-    <title>Malik Olabiyi - More Than Just a Software Developer</title>
+    <title>Malik Olabiyi: More Than Just a Software Developer</title>
 
     <style>
       html {
-        font-size: 14px;
+        font-size: 15px;
 
         --white-colour: #ffffff;
         --blue-colour: #1100ff;
-        --black-colour: #030303;
+        --black-colour: #535353;
       }
 
       body {
-        font-family: 'Lexend', sans-serif;
+        font-family: "Lexend", sans-serif;
         background: var(--white-colour);
         color: var(--black-colour);
-        text-align: center;
         display: flex;
-        align-items: center;
+        flex-direction: column;
         justify-content: center;
         height: 100vh;
-        padding: 0;
+        padding-left: 1rem;
         margin: 0;
       }
 
@@ -75,18 +74,33 @@
         font-size: 2rem;
       }
 
-      .container {
-        padding: 0 1rem;
-      }
-
       @media (min-width: 768px) {
         html {
           font-size: 16px;
         }
 
-        main {
+        body {
           width: 70%;
-          margin: 0 auto;
+        }
+      }
+
+      @media (min-width: 1024px) {
+        html {
+          font-size: 17px;
+        }
+
+        body {
+          width: 60%;
+        }
+      }
+
+      @media (min-width: 1280px) {
+        html {
+          font-size: 18px;
+        }
+
+        body {
+          width: 50%;
         }
       }
 
@@ -100,18 +114,16 @@
   </head>
   <body>
     <main>
-      <div class="container">
-        <h1>Malik Olabiyi</h1>
-        <h2>More Than Just a Software Developer</h2>
-        <p>
-          Hello, I’m Malik Olabiyi, I’m not just a software developer, I’m an
-          eloquent software developer with experience in development, designing
-          and marketing.
-        </p>
-        <a href="mailto:contact@malikolabiyi.com"
-          ><small>contact@malikolabiyi.com</small></a
-        >
-      </div>
+      <h1>Malik Olabiyi</h1>
+      <h2>More Than Just a Software Developer</h2>
+      <p>
+        Hello, I’m Malik Olabiyi, I’m not just a software developer, I’m an
+        eloquent software developer with experience in development, designing
+        and marketing.
+      </p>
+      <a href="mailto:contact@malikolabiyi.com"
+        ><small>contact@malikolabiyi.com</small></a
+      >
     </main>
   </body>
 </html>
